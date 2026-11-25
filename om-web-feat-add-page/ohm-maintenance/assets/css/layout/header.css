@@ -1,0 +1,37 @@
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--preto);
+}
+
+.logo img {
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 15px;
+}
+
+.logo {
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Squada One', Arial, sans-serif
+}
+
+.logo-simbol {
+    color: #ffc400;
+    font-size: 65px;
+    margin-right: 2px;
+    font-family: 'Squada One', Arial, sans-serif
+}
