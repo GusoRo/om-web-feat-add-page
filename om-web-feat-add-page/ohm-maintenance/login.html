@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ohm Maintenance</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+
+<body class="paginalogin">
+
+    <header class="logotopo">
+        <a href="index.html" class="logo" aria-label="Ohm Maintenance - Página inicial">
+            <span class="logo-simbolo">Ω</span>hm Maintenance
+        </a>
+    </header>
+
+    <!-- Elementos decorativos -->
+    <div class="circulo amarelo cima" aria-hidden="true"></div>
+    <div class="circulo amarelo baixo" aria-hidden="true"></div>
+    <div class="circulo circuloazul" aria-hidden="true"></div>
+
+    <main class="tela">
+
+        <form class="caixalogin" action="#" method="post">
+
+            <h1 class="titulologin">
+                <span class="iconelogin" aria-hidden="true">⇥</span>
+                Login
+            </h1>
+
+            <label class="rotulo" for="email">
+                E-mail / CNPJ
+            </label>
+
+            <input
+                class="campo"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="E-mail da empresa / CNPJ"
+                autocomplete="username"
+                required
+            >
+
+            <label class="rotulo" for="senha">
+                Senha
+            </label>
+
+            <input
+                class="campo"
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                autocomplete="current-password"
+                required
+            >
+
+            <p class="aviso">
+                Não tem uma conta?
+                <a href="cadastro.html" class="link">Cadastre-se</a>
+            </p>
+
+            <a href="#" class="link">
+                Esqueci minha senha
+            </a>
+
+            <button type="submit" class="botao">
+                Login
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha - Ohm Maintenance</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+
+<body class="paginalogin">
+
+    <header class="logotopo">
+        <a href="index.html" class="logo" aria-label="Ohm Maintenance - Página inicial">
+            <span class="logo-simbolo">Ω</span>hm Maintenance
+        </a>
+    </header>
+    <!-- Elementos decorativos -->
+    <div class="circulo amarelo cima" aria-hidden="true"></div>
+    <div class="circulo amarelo baixo" aria-hidden="true"></div>
+    <div class="circulo circuloazul" aria-hidden="true"></div>
+
+    <main class="tela">
+
+        <form class="caixalogin" action="#" method="post">
+
+            <h1 class="titulologin">
+                <span class="iconefmpsw" aria-hidden="true">
+                   <img src="assets/css/images/forgotmypsw-icon.svg" alt="Ícone de recuperação de senha" >  
+                </span>
+                Recuperar senha
+            </h1>
+
+            <label class="rotulo" for="email">
+                E-mail de recuperação
+            </label>
+
+            <input
+                class="campo"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="E-mail de recuperação"
+                autocomplete="username"
+                required
+            >
+
+            <button type="submit" class="botao">
+                Enviar e-mail
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
