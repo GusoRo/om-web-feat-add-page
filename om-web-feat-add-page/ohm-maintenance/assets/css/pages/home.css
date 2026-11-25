@@ -1,0 +1,92 @@
+.destaque {
+  background: var(--cinzaescuro);
+  padding: 100px 40px;
+}
+
+.titulo {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.realce {
+  color: var(--amarelo);
+}
+
+.chamada {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.centro {
+  text-align: center;
+}
+
+.texto {
+  margin: 20px 0;
+  max-width: 500px;
+  line-height: 1.5;
+  color: var(--cinza);
+}
+
+.paginalogin {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.logotopo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.marcalogin {
+  color: var(--amarelo);
+  font-family: 'Squada One', Arial, sans-serif;
+  font-size: 28px;
+}
+
+.circulo {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.iconecirculo {
+  width: 100px;
+  height: 100px;
+  background: var(--amarelo);
+  top: -50px;
+  right: -50px;
+}
+
+.amarelo {
+  width: 250px;
+  height: 250px;
+  background: #3a2f05;
+}
+
+.cima {
+  top: -80px;
+  right: -60px;
+}
+
+.baixo {
+  bottom: -80px;
+  left: -60px;
+}
+
+.circuloazul {
+  width: 300px;
+  height: 300px;
+  background: #061a30;
+  bottom: -100px;
+  right: 40px;
+}
+
+.tela {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,11 @@
+.botao {
+  display: inline-block;
+  background: var(--amarelo);
+  color: var(--preto);
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  font-family: 'Michroma', Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}

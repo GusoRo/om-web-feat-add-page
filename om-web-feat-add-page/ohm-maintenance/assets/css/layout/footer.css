@@ -1,0 +1,10 @@
+.rodape {
+  background: var(--cinzaescuro);
+  text-align: center;
+  padding: 20px;
+}
+
+.rodape p {
+  font-size: 14px;
+  color: var(--cinza);
+}
